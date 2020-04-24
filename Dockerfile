@@ -9,4 +9,4 @@ COPY . .
 
 EXPOSE 6001
 
-CMD laravel-echo-server start --dir=/home/node/app/config/
+CMD laravel-echo-server start --dir=/home/node/app/config

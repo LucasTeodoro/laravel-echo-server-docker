@@ -5,12 +5,6 @@ services:
     build: .
     container_name: app
     tty: true
-    working_dir: /home/node/app
-    environment:
-      - LARAVEL_ECHO_SERVER_HOST=localhost
-      - LARAVEL_ECHO_SERVER_REDIS_HOST=redis
-    volumes:
-      - ./:/home/node/app
     networks:
       - app-network
   redis:
